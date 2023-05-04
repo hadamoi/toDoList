@@ -1,0 +1,78 @@
+/* Goggle Font CDN */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02), 0 2px 4px rgba(0, 0, 0, 0.02),
+    0 4px 8px rgba(0, 0, 0, 0.02), 0 8px 16px rgba(0, 0, 0, 0.02),
+    0 16px 32px rgba(0, 0, 0, 0.02), 0 32px 64px rgba(0, 0, 0, 0.02);
+  padding: 0;
+  min-height: 80vh;
+}
+
+.input_area {
+  padding: 0 40px;
+}
+
+.input_area h1 {
+  font-size: 48px;
+  padding: 20px 0;
+}
+
+.task_area {
+  margin-top: 2em;
+}
+
+.task_tabs {
+  display: flex;
+  position: relative;
+}
+
+.task_tabs div {
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+#underline {
+  height: 4px;
+  background-color: cornflowerblue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.task_done {
+  text-decoration: line-through;
+  color: #999;
+}
