@@ -16,6 +16,8 @@ let filterList = [];
 let addButton =  document.getElementById('add_button');
 let taskList = [];
 
+taskInput.focus();
+
 addButton.addEventListener('click', addTask);
 taskInput.addEventListener('keyup', (e)=>{
   if(e.keyCode === 13){
