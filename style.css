@@ -57,35 +57,55 @@ h6 {
 #task_input {
   width: 80%;
   height: 48px;
-  border: 2px solid #97DBAE;
+  border: 4px solid #efefef;
   transition: border .25s ease-in;
+  padding-left: 10px;
 }
 
 #task_input:focus {
   outline: none;
-  border: 2px solid #F4BBBB;
+  border: 4px solid #F4BBBB;
+}
+
+#task_input::placeholder {
+  color: #aaa;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 #add_button {
   border: none;
   height: 48px;
   width: 18%;
-  transition: background-color .25s ease-in;
+  transition: background-color .25s ease-in, color .25s ease-in;
+  font-size: 22px;
+  vertical-align: top;
+  color: #999;
 }
 
 #task_input:focus + #add_button {
   background-color: #F4BBBB;
+  color: #000;
 }
 
 .task_tabs {
   display: flex;
+  align-items: center;
   justify-content: center;
   position: relative;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .task_tabs div {
-  padding: 20px 40px;
+  flex: 1;
+  padding: 20px;
   cursor: pointer;
+  transition: color .25s ease-in-out;
+}
+
+.task_tabs div:hover {
+  color: #999;
 }
 
 #underline {
