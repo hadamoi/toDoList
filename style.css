@@ -6,6 +6,10 @@
   font-family: "Jost", sans-serif;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
 }
