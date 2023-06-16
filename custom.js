@@ -1,13 +1,3 @@
-// 유저가 값을 입력한다.
-// + 버튼을 클릭하면, 할 일이 추가된다.
-// delete 버튼을 클릭하면 할 일이 삭제된다.
-// check 버튼을 클릭하면 할 일이 끝나면서 밑줄이 그어진다.
-// 1. check 버튼을 클릭하는 순간 true || false
-// 2. true이면 끝난 것으로 간주하고 밑줄 표시하기.
-// 3. false이면 진행중인 것으로 간주하고 그대로 두기.
-// not done, done 탭을 클릭하면, 언더바가 이동한다.
-// all, not done, done 각각의 아이템만 보여준다. 
-
 let taskInput = document.getElementById('task_input');
 let tabs = document.querySelectorAll('.task_tabs div');
 let underline = document.getElementById('underline');
