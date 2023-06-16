@@ -1,4 +1,4 @@
-# ☑ To do list
+# 🤸🏻‍♀🏃🏻‍♀️ To do list
 You can manage your to-do list in three tabs.
 
 ## 📝 Description.
