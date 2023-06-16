@@ -5,10 +5,10 @@ You can manage your to-do list in three tabs.
 * The user enters a value.
 Clicking the * + button adds a new to-do.
 * Clicking the delete button deletes the to-do.
-* Clicking the check button underlines the end of the to-do.
-* 1. true || false at the moment of clicking the check button.
-* 2. if true, it is considered finished and underlined.
-* 3. if false, consider it in progress and leave it as is.
+* Clicking the check button underlines the end of the to-do. <br />
+∙ true || false at the moment of clicking the check button. <br />
+∙ If true, it is considered finished and underlined. <br />
+∙ If false, consider it in progress and leave it as is. <br />
 * When you click the not done, done tab, the underbar moves.
 * ALL, NOT DONE, DONE Shows only the items of each. 
 
